@@ -21,7 +21,7 @@ const NavBar = () => {
         <AiOutlineHome />
       </NavLink>
       <NavLink
-        to="/"
+        to="/about"
         style={({ isActive }) => ({
           color: isActive ? "var(--color-light)" : "",
           background: isActive ? "var(--color-bg)" : "",
@@ -30,7 +30,7 @@ const NavBar = () => {
         <AiOutlineUser />
       </NavLink>
       <NavLink
-        to="/"
+        to="/projects"
         style={({ isActive }) => ({
           color: isActive ? "var(--color-light)" : "",
           background: isActive ? "var(--color-bg)" : "",
@@ -39,7 +39,7 @@ const NavBar = () => {
         <AiOutlineProject />
       </NavLink>
       <NavLink
-        to="/"
+        to="/contact"
         style={({ isActive }) => ({
           color: isActive ? "var(--color-light)" : "",
           background: isActive ? "var(--color-bg)" : "",
