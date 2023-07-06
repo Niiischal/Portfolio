@@ -1,9 +1,10 @@
 import React from "react";
 import {
-    AiOutlineContacts,
-    AiOutlineHome,
-    AiOutlineProject,
-    AiOutlineUser,
+  AiOutlineBook,
+  AiOutlineContacts,
+  AiOutlineHome,
+  AiOutlineProject,
+  AiOutlineUser
 } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
@@ -28,6 +29,15 @@ const NavBar = () => {
         })}
       >
         <AiOutlineUser />
+      </NavLink>
+      <NavLink
+        to="/skills"
+        style={({ isActive }) => ({
+          color: isActive ? "var(--color-light)" : "",
+          background: isActive ? "var(--color-bg)" : "",
+        })}
+      >
+        <AiOutlineBook />
       </NavLink>
       <NavLink
         to="/projects"
