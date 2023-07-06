@@ -64,3 +64,32 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+@media screen and (max-width: 1024px) {
+    .about{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .me{
+        width: 50%;
+        margin: 2rem auto 4rem ;
+    }
+
+    .content p{
+        margin: 1rem 0 1.5rem;
+    }
+
+
+}
+
+/* Media queries for small devices */
+@media screen and (max-width: 600px) {
+    .content{
+        text-align: center;
+    }
+
+    .content p{
+        margin: 1.8rem;
+    }
+}
