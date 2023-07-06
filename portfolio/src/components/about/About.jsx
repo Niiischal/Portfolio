@@ -2,6 +2,7 @@ import React from 'react'
 import { BsPersonWorkspace } from 'react-icons/bs'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import myImage from '../../assets/me.jpg'
+import './about.css'
 
 const About = () => {
   return (
@@ -17,12 +18,12 @@ const About = () => {
         <div className="content">
             <div className="cards">
                 <article className='card'>
-                <BsPersonWorkspace/>
+                <BsPersonWorkspace className='icons'/>
                      <h5>Experience</h5>
                      <small>Few Months.</small>
                 </article>
                 <article className='card'>
-                <VscFolderLibrary/>
+                <VscFolderLibrary className='icons'/>
                      <h5>Projects</h5>
                      <small>Few.</small>
                 </article>
